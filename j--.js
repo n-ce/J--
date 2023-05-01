@@ -5,8 +5,6 @@
 
 const input = document.querySelector('textarea');
 const run = document.querySelector('button');
-const output = document.querySelector('div');
-let varName, varVal;
 const variables = {};
 
 run.onclick = () => {
